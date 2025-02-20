@@ -4,7 +4,7 @@ const buildings = [
     {
         "name": "AGSM",
         "rooms_available": 9,
-        "building_file": "assets/agsm.webp"
+        "building_picture": "assets/agsm.webp"
     },
     {
         "name": "Ainsworth Building",
@@ -81,7 +81,8 @@ function addBuilding(buildingContainer, name, rooms_available, building_picture)
     greenDot.classList.add("green-dot");
     roomsAvailableDiv.appendChild(greenDot);
 
-    roomsAvailableDiv.textContent = `${rooms_available} rooms available`;
+    const roomsAvailableText = document.createTextNode(`${rooms_available} rooms available`);
+    roomsAvailableDiv.appendChild(roomsAvailableText);
 
     buildingDiv.appendChild(roomsAvailableDiv);
 
