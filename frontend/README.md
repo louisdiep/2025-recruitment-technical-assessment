@@ -5,6 +5,10 @@
 > **YOU DO NOT NEED TO COMPLETE ALL PARTS.** 
 > Complete the parts that you think best reflect your skills (feel free to do any order).
 
+# Welcome!
+- Thanks for checking out my technical assessment! I've implemented the main task using
+HTML, CSS and Javascript :)
+
 ## Overview and Expectations
 
 - You will be given an image of a website. **Your goal is to recreate this image as a page**.
