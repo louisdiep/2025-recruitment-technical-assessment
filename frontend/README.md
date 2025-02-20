@@ -5,8 +5,8 @@
 > **YOU DO NOT NEED TO COMPLETE ALL PARTS.** 
 > Complete the parts that you think best reflect your skills (feel free to do any order).
 
-# Welcome!
-- Thanks for checking out my technical assessment! I've implemented the main task using
+# Hi there!
+- Thanks for checking out my technical assessment! I've implemented the main task and Stretch Task 1 using
 HTML, CSS and Javascript :)
 
 ## Overview and Expectations
