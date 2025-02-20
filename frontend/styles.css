@@ -2,6 +2,15 @@
   margin: 10px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+html, body, main {
+  height: 100%;
+  width: 100%;
+}
+
 .header {
   height: 50px;
   width: 100%;
@@ -12,7 +21,10 @@
 
 .logo-container {
   display: flex;
-  align-content: center;
+  align-items: center;
+  color: #ea8100;
+  font-weight: 600;
+  font-size: 28px;
 }
 
 .logo img {
@@ -24,14 +36,35 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 2px;
+  gap: 3px;
 }
 
 .nav-icons .nav-button {
   width: 35px;
   height: 35px;
   border-radius: 7px;
-  border: 2px solid orange;
+  border: 1px solid #ef6c00;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#search {
+  background-image: url(assets/orangeSearch.png);
+}
+
+#grid {
+  background-color: #ef6c00;
+  background-image: url(assets/grid.png);
+}
+
+#map {
+  background-image: url(assets/map.png);
+}
+
+#dark-mode {
+  background-image: url(assets/moon.png);
 }
 
 .horizontal-line {
@@ -44,6 +77,8 @@
   height: 50px;
   width: 100%;
   padding: 10px 5px 10px 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   display: flex;
   justify-content: space-between;
   align-content: center;
@@ -56,20 +91,18 @@
   height: 30px;
   width: 100px;
   border-radius: 7px;
-  border: 2px solid orange;
+  border: 2px solid #ef6c00;
+  cursor: pointer;
 }
 
 .toolbar input[type=text] {
   height: 35px;
-  width: 1250px;
-  /* float: right; */
-  /* padding: 6px; */
+  width: 750px;
+  padding: 5px;
   border: solid 2px rgba(189, 188, 188, 0.329);
   border-radius: 5px;
-  /* margin-top: 8px;
-  margin-right: 16px; */
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 
@@ -80,19 +113,50 @@
   height: 30px;
   width: 100px;
   border-radius: 7px;
-  border: 2px solid orange;
+  border: 2px solid #ef6c00;
+  cursor: pointer;
 }
 
 .building {
-  height: 600px;
-  width: 400px;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  height: 350px;
+  width: 320px;
+  padding: 10px;
   border-radius: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: border-box;
 }
 
-.building {
-  height: 200px;
-  width: 200px;
-  border-radius: 10px;
+.rooms-available {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 35px;
+  width: 155px;
+  padding: 5px;
+  border-radius: 15px;
+  background-color: white;
+  font-size: 14px;
+  border: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.building-name {
+  display: flex;
+  align-items: center;
+  height: 55px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: rgb(255, 115, 0);
+  font-size: 14px;
+  color: white;
 }
 
 #AGSM {
@@ -100,8 +164,8 @@
 }
 
 .green-dot {
-  height: 5px;
-  width: 5px;
+  height: 10px;
+  width: 10px;
   background-color: #028a0b;
   border-radius: 50%;
   display: inline-block;
@@ -127,7 +191,3 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
 }
-
-/* .door {
-  background-image: url(assets/freeRoomsLogo.png);
-} */
