@@ -76,6 +76,7 @@ html, body, main {
 .toolbar {
   height: 50px;
   width: 100%;
+  gap: 10px;
   padding: 10px 5px 10px 5px;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -88,21 +89,33 @@ html, body, main {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 30px;
-  width: 100px;
+  padding: 5px;
+  gap: 5px;
+  height: 35px;
+  width: 120px;
   border-radius: 7px;
   border: 2px solid #ef6c00;
   cursor: pointer;
+  color: #ea8100;
+  font-weight: 600;
+  font-size: 14px;
 }
+
+.filter-button img {
+  height: 25px;
+}
+
 
 .toolbar input[type=text] {
   height: 35px;
   width: 750px;
-  padding: 5px;
+  padding: 10px 10px 10px 25px;
   border: solid 2px rgba(189, 188, 188, 0.329);
   border-radius: 5px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
+  background: url("assets/greySearch.png") no-repeat;
+  background-size: 25px;
 }
 
 
@@ -110,19 +123,36 @@ html, body, main {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 30px;
-  width: 100px;
+  gap: 5px;
+  height: 35px;
+  width: 120px;
+  padding: 5px;
   border-radius: 7px;
   border: 2px solid #ef6c00;
   cursor: pointer;
+  color: #ea8100;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.sort-button img {
+  height: 25px;
+}
+
+.building-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 40vh);
+  grid-gap: 15px;
 }
 
 .building {
   display: flex;
   align-items: flex-end;
   position: relative;
-  height: 350px;
-  width: 320px;
+  height: 100%;
+  width: 100%;
+  margin: 5px;
   padding: 10px;
   border-radius: 10px;
   background-size: cover;
@@ -135,9 +165,11 @@ html, body, main {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  gap: 5px;
   height: 35px;
-  width: 155px;
-  padding: 5px;
+  width: 170px;
+  max-width: 90%;
+  padding: 15px;
   border-radius: 15px;
   background-color: white;
   font-size: 14px;
@@ -159,7 +191,7 @@ html, body, main {
   color: white;
 }
 
-#AGSM {
+#agsm {
   background-image: url(assets/agsm.webp);
 }
 
