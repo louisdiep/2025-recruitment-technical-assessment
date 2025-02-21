@@ -1,2 +1,5 @@
-
-Hi! You can run my website by opening the index.html file. Please reach out to me if you have any difficulties!
+Hi! 
+- Thanks for checking out my application, I've completed the main task and Stretch Task 1
+using HTML, CSS and Javascript.
+- You can run my website by cloning the repo and starting a server locally using
+http-server or similar. Please reach out to me if you have any difficulties!

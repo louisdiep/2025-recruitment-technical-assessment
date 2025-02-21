@@ -1,13 +1,11 @@
+# Hi there! Please checkout instructions.txt#
+
 > This question is relevant for **any project with a backend**
 > (Bridges, Chaos, Circles, Clusters, Unielectives, Freerooms, Notangles).
 
 # DevSoc Subcommittee Recruitment: Frontend
 > **YOU DO NOT NEED TO COMPLETE ALL PARTS.** 
 > Complete the parts that you think best reflect your skills (feel free to do any order).
-
-# Hi there! #
-- Thanks for checking out my technical assessment! I've implemented the main task and Stretch Task 1 using
-HTML, CSS and Javascript :)
 
 ## Overview and Expectations
 
