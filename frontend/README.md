@@ -5,7 +5,9 @@
 > **YOU DO NOT NEED TO COMPLETE ALL PARTS.** 
 > Complete the parts that you think best reflect your skills (feel free to do any order).
 
-# Hi there! Please checkout the instructions.txt
+# Hi there! #
+- Thanks for checking out my technical assessment! I've implemented the main task and Stretch Task 1 using
+HTML, CSS and Javascript :)
 
 ## Overview and Expectations
 
