@@ -1,4 +1,4 @@
-# Hi there! Please checkout instructions.txt
+# Hi there! Please check out instructions.txt
 
 > This question is relevant for **any project with a backend**
 > (Bridges, Chaos, Circles, Clusters, Unielectives, Freerooms, Notangles).

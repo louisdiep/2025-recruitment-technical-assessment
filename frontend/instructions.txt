@@ -1,4 +1,4 @@
-Hi! 
+Hi!
 - Thanks for checking out my application, I've completed the main task and Stretch Task 1
 using HTML, CSS and Javascript.
 - You can run my website by cloning the repo, running npm install http-server and 
