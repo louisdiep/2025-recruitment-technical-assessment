@@ -5,9 +5,13 @@ import buildings from "./data.json" with { type: "json" };
 document.addEventListener("DOMContentLoaded", () => {
     // add the buildings
     const buildingContainer = document.querySelector(".building-container");
-
     buildings.forEach(building => {
-        addBuilding(buildingContainer, building.name, building.rooms_available, building.building_picture)
+        addBuilding(buildingContainer, building.name, building.rooms_available, building.building_picture);
+    });
+
+    // handling click event when logo is clicked
+    document.getElementById("header-logo").addEventListener("click", () => {
+        changeDoorState();
     });
 })
 
@@ -22,7 +26,7 @@ function addBuilding(buildingContainer, name, rooms_available, building_picture)
     buildingDiv.classList.add("building");
     buildingDiv.style.backgroundImage =  `url(${building_picture})`;
 
-    // adding rooms available
+    // adding rooms available textbox
     const roomsAvailableDiv = document.createElement("div");
     roomsAvailableDiv.classList.add("rooms-available");
 
@@ -35,7 +39,7 @@ function addBuilding(buildingContainer, name, rooms_available, building_picture)
 
     buildingDiv.appendChild(roomsAvailableDiv);
 
-    // adding building name
+    // adding building name text box
     const buildingNameDiv = document.createElement("div");
     buildingNameDiv.classList.add("building-name");
     buildingNameDiv.textContent = name;
